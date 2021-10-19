@@ -1,0 +1,150 @@
+:root{
+    --vermelho:#E50914;
+    --preta:#141414;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+   background: var(--preta);
+   font-family: 'Arial', Times, serif;
+   color:white;
+}
+
+
+.box{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(#020202,#141414);
+}
+
+header .logo{
+    margin-left: 35px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 35px;
+    padding: 10px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+header nav a{
+    font-size: 15px;
+    text-decoration:none;
+    color:#fff;
+    margin-right: 10px;
+}
+
+
+header nav a:hover{
+    color:#AAA;
+}
+
+.cabeçalho-di {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.perfil {
+    width: 39px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.icone-lupa {
+    width: 20px;
+    margin-right: 20px;
+    margin-left: 570px;
+}
+
+.icone {
+    width: 20px;
+    margin-right: 20px;
+}
+
+.cabeçalho-di p {
+    margin-right: 20px;
+}
+
+
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50),rgba(0,0,0,.50)) ,url('../photos/sex-educate.jpg');
+    height: 500px;
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.filme-principal .descricao{
+    width: 450px;
+   text-align: justify;
+   margin-bottom: 40px;
+   padding-top: 10px;
+}
+
+
+.filme-principal .titulo img{
+    margin-top: 140px;
+    width: 400px;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color: white;
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color:white;
+    color:black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-filme{
+    margin-top: 5px;
+    height: 280px;
+    width: 100px;
+    display: block;
+    cursor: pointer;
+}
+
+
+.carrosel-filmes{
+    margin-top:5px;
+}
+
+.lista {
+    margin-left: 5px;
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 10px;
+}
